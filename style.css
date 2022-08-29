@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: #F5F5F7;
+}
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+.header-black{
+    background-color: #333333;
+}
+header {
+    height: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apple{
+    height: 21px;
+    fill: #D6D6D6;
+}
+.shop{
+    width: 28px;
+    height: 44px;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    color: #D6D6D6;
+    font-size: 13.5px;
+    font-weight: 300;
+    transition: 500ms;
+}
+.btn:hover{
+    color: white;
+}
+.level1{
+    background-color: white;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.top{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-text{
+    font-size: 23px;
+    font-weight: 500;
+    color: black;
+}
+.top-left{
+    width: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-top{
+    background-color: transparent;
+    border: none;
+    font-size: 13.5px;
+}
+.first{
+    color: grey;
+}
+.second{
+    transition: 300ms;
+}
+.second:hover{
+    color: blue;
+}
+.third{
+    background-color: #0071E3;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 15px;
+    transition: 400ms;
+}
+.third:hover{
+    background-color: #318CE7;
+}
+.level2{
+    background-color: white;
+}
+.top-medium{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ssilka{
+    color: #287ED4;
+}
+.text-block{
+    margin: 40px auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: 23px;
+    font-weight: 500;
+}
+.text1{
+    font-size: 66px;
+    font-weight: 500;
+    text-align: center;
+}
+.text2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+}
+.text3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+    color: #86868B;
+}
+.button-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.buy{
+    background-color: #0071E3;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 14px 28px;
+    transition: 400ms;
+}
+.buy:hover{
+    background-color: #318CE7;
+}
+.img-block{
+    height: 235px;
+    background-image: url(./Img/green.jpg);
+    background-size: contain;
+    margin-top: 65px;
+    transition: 500ms;
+}
+.active{
+    background-image: url(./Img/green.jpg)
+}
+.active1{
+    background-image: url(./Img/pink.jpg);
+}
+.active2{
+    background-image: url(./Img/Blue.jpg)
+}
+.active3{
+    background-image: url(./Img/Black.jpg)
+}
+.active4{
+    background-image: url(./Img/white.jpg)
+}
+.active5{
+    background-image: url(./Img/red.jpg)
+}
+.colors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.color{
+    height: 42px;
+    width: 42px;
+    background-color: green;
+    margin-top: 65px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border-radius: 100px;
+}
+.green{
+    background-color: #394C38;
+}
+.pink{
+    background-color: #FADDD7;
+}
+.blue{
+    background-color: #276787;
+}
+.black{
+    background-color: #232A31;
+}
+.white{
+    background-color: #FAF6F2;
+}
+.red{
+    background-color: #BF0013;
+}
